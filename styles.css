@@ -1,0 +1,68 @@
+body {
+    display:flex;
+    flex-direction: column;
+}
+
+.hero, header, footer {
+    background-color: #1f2937;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+}
+ul, .header-nav {
+    list-style: none;
+    display:flex;
+    
+}
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.hero-left{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.hero-left > h1{
+    font-size: 48px;
+    font-weight:bolder;
+}
+
+button {
+    background-color:#3882f6;
+    color:white;
+    /* add border radius */
+}
+
+.box {
+    border: 1px solid #3882f6; 
+    border-radius: 5px; 
+}
+
+.testimonial {
+    background-color: #E5E7EB;
+}
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+.quote-name {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.call-to-action {
+display:flex;
+justify-content: center;
+}
+.cta-box {
+    background-color: #3882f6;
+    color:white;
+}
+
+
+

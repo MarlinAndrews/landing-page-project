@@ -27,6 +27,15 @@ ul, .header-nav {
     
 }
 
+/*end of header section */
+
+.hero {
+    display:flex;
+    justify-content: space-around;
+}
+
+
+
 .hero-left{
     font-size: 18px;
     color: #E5E7EB;
@@ -42,13 +51,16 @@ button {
     /* add border radius */
 }
 
+.hero-right {
+
+}
+
 img {
-    width: 50%; /* Ensure the image fills the width of its container */
-    height: 50%; /* Ensure the image fills the height of its container */
-    object-fit: cover; /* Scale the image to cover the entire container */
+    width: 60%; /* Ensure the image fills the width of its container */
+    height: 60%; /* Ensure the image fills the height of its container */
   }
   
-/*end of header section*/
+/*end of hero section*/
 
 .box {
     border: 1px solid #3882f6; 

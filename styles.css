@@ -15,11 +15,14 @@ header {
 ul, .header-nav {
     list-style: none;
     display:flex;
+    align-items: center;
+    gap: 12px;
     
 }
 .logo{
     font-size: 24px;
     color: #F9FAF8;
+    
 }
 
 .hero-left{

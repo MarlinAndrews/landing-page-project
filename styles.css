@@ -4,6 +4,7 @@ body {
     font-family: roboto;
 
 }
+/*header section */
 
 .hero, header, footer {
     background-color: #1f2937;
@@ -28,10 +29,14 @@ ul, .header-nav {
 }
 
 /*end of header section */
+/*Hero section */
 
 .hero {
     display:flex;
     justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 
@@ -39,25 +44,35 @@ ul, .header-nav {
 .hero-left{
     font-size: 18px;
     color: #E5E7EB;
+    width: 300px;
+    margin-left: 30px;
 }
 .hero-left > h1{
     font-size: 48px;
     font-weight:bolder;
 }
 
+.hero-left > h1, .hero-left > p{
+    margin: 0;
+}
 button {
     background-color:#3882f6;
     color:white;
-    /* add border radius */
+    font-weight: bold;
+    border-radius: 4px;
+    border-width: 0px;
+    padding: 5px 20px;
+    margin-top: 5px;
+
 }
 
 .hero-right {
-
+width: 300px;
+margin-right: 30px;
 }
 
 img {
-    width: 60%; /* Ensure the image fills the width of its container */
-    height: 60%; /* Ensure the image fills the height of its container */
+    width: 100%;
   }
   
 /*end of hero section*/

@@ -71,16 +71,42 @@ width: 300px;
 margin-right: 30px;
 }
 
-img {
+.hero-right > img {
     width: 100%;
   }
   
 /*end of hero section*/
 
-.box {
-    border: 1px solid #3882f6; 
-    border-radius: 5px; 
+/*landing page*/
+
+.landing {
+    display:flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+    text-align: center;
 }
+
+.landing > h2 {
+    align-items: center;
+}
+
+.boxes-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box {
+    border: 3px solid #3882f6; 
+    border-radius: 5px; 
+    flex: 0 1 20%;
+}
+.boxes-container > img {
+  width: 200px; /* Set the desired width */
+  height: 150px; /* Set the desired height */
+  background-color: #f0f0f0; /* Optional: Set a background color */
+}
+
+/*end of landing page*/
 
 .testimonial {
     background-color: #E5E7EB;

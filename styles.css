@@ -80,7 +80,7 @@ margin-right: 30px;
 /*landing page*/
 
 .landing {
-    display:flex;
+    display: flex;
     flex-direction: column;
     padding-bottom: 50px;
     text-align: center;
@@ -93,18 +93,26 @@ margin-right: 30px;
 .boxes-container {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.outer-box {
+    flex: 0 1 20%; /* Adjust as needed */
+    text-align: center; 
 }
 
 .box {
     border: 3px solid #3882f6; 
-    border-radius: 5px; 
-    flex: 0 1 20%;
+    border-radius: 8px; 
 }
-.boxes-container > img {
-  width: 200px; /* Set the desired width */
-  height: 150px; /* Set the desired height */
-  background-color: #f0f0f0; /* Optional: Set a background color */
+
+
+.outer-box p {
+    margin-top: 10px; /* Adjust as needed */
+    color:#E5E7EB
 }
+
+
 
 /*end of landing page*/
 
